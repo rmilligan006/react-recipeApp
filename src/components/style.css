@@ -40,8 +40,9 @@ body{
     width: 80%;
     margin: 20px 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
     grid-gap: 2rem;
+    
 }
 
 img{
@@ -55,6 +56,7 @@ img{
     border-radius: 1rem;
     padding: 5px;
     background-color: #B25068;
+    cursor: pointer;
 }
 
 .card h3 {
@@ -71,13 +73,13 @@ img{
 .numBox {
     width: 50px;
     height: 40px;
+    background-color: #030e12;
     display: flex;
-    background-color: darkgreen;
     justify-content: center;
     align-items: center;
-    color: antiquewhite;
+    color: white;
     margin: 0 5px 0 5px;
-    
+    cursor: pointer;
 }
 
 .content img{ 
